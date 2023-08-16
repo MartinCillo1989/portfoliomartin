@@ -1,0 +1,24 @@
+#home-section{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    animation: introup 2s;
+    position: relative;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 99999px;
+    }
+    p{
+        strong{
+            font-size: $fuente-mediana;
+            span{
+                color: $color-primario;
+            }
+        }
+        width: 50%;
+        font-size: $fuente-chica;
+    }
+   
+        
+}
